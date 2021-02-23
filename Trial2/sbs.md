@@ -50,4 +50,8 @@ php bin/console make:auth
 16. update le fichier
 src/Controller/SecurityController.php
 
-17. 
+17. Configuration BDD
+-   open .env
+-   modify DATABASE_URL as needed
+
+18. Creation de la bdd
