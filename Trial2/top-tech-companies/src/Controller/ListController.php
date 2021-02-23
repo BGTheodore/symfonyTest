@@ -13,6 +13,8 @@ class ListController extends AbstractController
      */
     public function index(Request $request)
     {
+
+        dd("okokoko");
         $companies = [
             'Apple' => '$1.16 trillion USD',
             'Samsung' => '$298.68 billion USD',
